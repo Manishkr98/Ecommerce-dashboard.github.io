@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.AddProduct{
+    width: 400px;
+    height: 400px;
+    background-color:rgb(195, 218, 223);
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.AddProduct h2{
+    font-size: 30px;
+}
+.AddProduct button{
+    width: 100px;
+    height: 30px;
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.AddProduct .inputBox{
+    display:flex;
+    flex-direction: column;
+    margin: 25px;
+    align-items: center;
+}
+
+.AddProduct .inputBox input{
+    margin: 20px 0px;
+    width: 80%;
+    height: 30px;
+    padding-left: 12px;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+}
